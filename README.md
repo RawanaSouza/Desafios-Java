@@ -3,7 +3,7 @@ Repositório para os desafios de código do Santander Bootcamp Back-end Java na 
 
 ## 1 - Simulação Bancária 
 
-**SimulacaoBancaria.java**
+🔗[SimulacaoBancaria.java](https://github.com/RawanaSouza/Desafios-Java/blob/main/DesafiosCodigo/src/SimulacaoBancaria.java)
 
 Este projeto implementa uma simulação de operações bancárias básicas utilizando a linguagem Java. O programa permite que o usuário realize as seguintes operações:
 
@@ -28,7 +28,7 @@ Menu de Serviços:
 
 ## 2 - Verificação de Cheque Especial
 
-**VerificacaoChequeEspecial.java**
+🔗[VerificacaoChequeEspecial.java](https://github.com/RawanaSouza/Desafios-Java/blob/main/DesafiosCodigo/src/VerificacaoChequeEspecial.java)
 
 Este projeto simula a verificação de um cheque especial durante uma tentativa de saque. O programa permite ao usuário verificar se uma transação pode ser realizada com base no saldo atual da conta e no limite de cheque especial disponível.
 
@@ -39,7 +39,7 @@ Este projeto simula a verificação de um cheque especial durante uma tentativa 
 
 ## 3 - Verificador de Elegibilidade
 
-**VerificadorElegibilidadeConta.java**
+🔗[VerificadorElegibilidadeConta.java](https://github.com/RawanaSouza/Desafios-Java/blob/main/DesafiosCodigo/src/VerificadorElegibilidadeConta.java)
 
 Este projeto verifica a elegibilidade de um usuário para abrir uma conta bancária com base em sua idade. O programa solicita a idade do usuário e determina se ele está qualificado para abrir uma conta.
 
@@ -49,7 +49,7 @@ Este projeto verifica a elegibilidade de um usuário para abrir uma conta bancá
 
 ## 4 - Verificador de Número da Conta
 
-**VerificadorNumeroConta.java**
+🔗[VerificadorNumeroConta.java](https://github.com/RawanaSouza/Desafios-Java/blob/main/DesafiosCodigo/src/VerificadorNumeroConta.java)
 
 Este projeto verifica a validade de um número de conta bancária. O programa solicita ao usuário que insira um número de conta e verifica se ele atende aos requisitos de formato, especificamente se possui exatamente 8 dígitos.
 
@@ -59,3 +59,12 @@ Este projeto verifica a validade de um número de conta bancária. O programa so
 
 
 ## 5 - Controle Simples de Saque
+
+**ControleSimplesDeSaque.java**
+
+Este projeto em Java simula um sistema simples de controle de saques, onde o usuário pode realizar múltiplos saques até atingir um limite diário especificado. O programa monitora o limite de saque restante e informa o usuário sobre o status de suas transações.
+
+- O usuário deve informar o limite diário de saque.
+- O usuário é solicitado a inserir o valor de cada saque.
+- O programa verifica se o valor do saque é permitido e atualiza o limite diário restante.
+- O usuário é informado sobre o sucesso do saque, o limite restante ou se as transações foram encerradas devido a saldo insuficiente ou o usuário optar por parar.
